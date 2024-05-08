@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0 0 25px 0;
+    font-family: helvetica;  
+    background-color: #e7e9ea;
+}
+.logo{
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.header-nav1{
+    background-color: #e7e9ea;
+}
+.header-nav2{
+    background-color: #046d39;
+    line-height: 2rem;
+    text-align: end;
+    padding: 10px;
+    font-size: 12px;
+}
+.option1{
+    color: blue;
+}
+.main-box-style{
+    background-color: white;
+    margin: 45px 30px 0px 30px;
+    border-radius: 15px;
+    padding-bottom: 25px;
+}
+.parent1-style{
+    padding: 10px;
+    margin: 0 0 0 0;
+    text-transform: capitalize;
+    font-size: 18px;
+    
+}
+.parent2-style{
+    display: flex;
+}
+.child1{
+    min-width: 35%;
+    margin: 0 10px 0 1rem;
+    background-image: linear-gradient(10deg,rgb(255, 255, 255), rgb(206, 206, 206), rgba(20, 20, 20, 0.114));
+    border-right: 2px solid black;
+}
+
+.box2{
+    width: 90%; 
+  }
+
+  .formtype{
+    
+    margin: 10px; 
+    width: 95%; 
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    
+}
+.form-key{
+    padding-left: 3rem;
+
+}
+.form1-style{
+    padding-left: 10px;
+}
+.form-entity{
+    padding-left: 4.8rem;
+}
+.form1-entity{
+    padding-left: 4.8rem;
+}
+.form-loc{
+    padding-left: 3.4rem;
+}
+.form-job{
+    padding-left: 1.5rem;
+}
+.form-72{
+    text-align: center;
+}
+.form-btn{
+    text-align: center;
+}
+.btn1{
+    color: white;
+    background-color: #6c7884;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 8px;
+}
+.btn2{
+    color: white;
+    background-color: #007BC6;
+    border: 0.2px solid black;
+    border-radius: 5px;
+    padding: 8px;
+}
+/* .entity{
+    width: 200px;
+    margin-left: 10px;
+} */
+/* .btn1-style{
+    background-color:grey; 
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+} */
+/* .btn2-style{
+    background-color: #007bc6; 
+    border:1px solid black;
+    border-radius:5px;
+    padding: 10px;
+} */
+.parent2{
+    /* text-align: justify; */
+    padding-right: 20px;
+    font-size: 12px;
+
+}
+.child2>h2{
+    
+    color: #27ae60 ;
+    text-decoration: underline;
+}
+.body-image-style{
+    width: 800px;
+}
+.Official-site{
+    color: #2980b9;
+}
