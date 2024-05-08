@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>partner with us</title>
+    <link rel="stylesheet" href="dmartcss/partnerwithus.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="icon" href="dmartimages/favicon.png"/>
+</head>
+<body>
+    
+    <div>
+        <header>
+            <div>
+                <a href="index.html">
+                    <img src="dmartimages/logo.png" alt="dmart"/></a>
+            </div>
+            
+            <div >
+                <ul class="menubar-style">
+                    <div class="a-style">
+                    <li><a href="aboutus.html">about us</a></li>
+                    <li><a href="categories.html" >categories</a></li>
+                    <li><a href="socialoutreach.html" >social outreach</a></li>
+                    <li><a href="partnerwithus.html" >partner with us</a></li>
+                    <li><a href="career.html" >careers</a></li>
+                    <li><a href="#" >feedback</a></li>
+                    
+                    <div style="display: flex;">
+                        <li class="sublist-style"><a href="https://www.facebook.com/AvenueSupermarts/" ><i class="fa-brands fa-square-facebook fa-2xl" style="color: #1877F2; "></i></a></li>
+                        <li class="sublist-style"><a href="https://www.linkedin.com/company/avenue-supermarts-ltd-dmart/" ><i class="fa-brands fa-linkedin fa-2xl" style="color: #0A66C2; padding: 10px;"></i></a></li>
+                    </div>
+                </div>
+                </ul>
+           </div>
+        </header>
+    </div>
+
+
+    <section>
+
+    <div class="heading">
+        <h3 class="title-style">
+            <span class="span-style">partner with us</span>
+        </h3>
+    </div>
+    <div class="w3-bar w3-black">
+        <button class="w3-bar-item w3-button" onclick="openCity('London')">London</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Paris</button>
+        
+      </div>
+      
+      <div id="London" class="w3-container city">
+        <h2>London</h2>
+        <p>London is the capital city of England.</p>
+      </div>
+      
+      <div id="Paris" class="w3-container city" style="display:none">
+        <h2>Paris</h2>
+        <p>Paris is the capital of France.</p> 
+      </div>
+      
+     
+      
+      <script>
+      function openCity(cityName) {
+        var i;
+        var x = document.getElementsByClassName("city");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        document.getElementById(cityName).style.display = "block";  
+      }
+      </script>
+
+   </section>
+</body>
+</html>
